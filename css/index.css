@@ -55,20 +55,20 @@ footer {
 /* Typography CSS */
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   margin: 20px 0px 0px 10px;
   color: #F10DA3;
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
   margin: 20px 0px 0px 10px;
   color: #000000;
   padding-bottom: -10px;
 }
 
 h3 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: ExtraBold;
   margin: 20px 0px 0px 10px;
   color: #FFFFFF;
@@ -303,7 +303,4 @@ li {
   margin:0;
   padding: 15px;
   border: 1px solid black;
-}
-img {
-  width: 18px;
 }
