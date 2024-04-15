@@ -1,0 +1,309 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat Medium', 'Montserrat Light', 'Montserrat Thin ExtraBold', 'Montserrat Thin Bold', 'Montserrat Medium Italic', sans-serif;
+  height: 100%;
+}
+
+/* Style the header */
+header {
+  background-color: #EEEEEE;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+/* Typography CSS */
+
+h1 {
+  font-size: 60px;
+  margin: 20px 0px 0px 10px;
+  color: #F10DA3;
+}
+
+h2 {
+  font-size: 60px;
+  margin: 20px 0px 0px 10px;
+  color: #000000;
+  padding-bottom: -10px;
+}
+
+h3 {
+  font-size: 60px;
+  font-weight: ExtraBold;
+  margin: 20px 0px 0px 10px;
+  color: #FFFFFF;
+  padding-bottom: -10px;
+}
+
+h4 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: ExtraBold;
+  margin: 20px 0px 0px 10px;
+  color: #000000;
+  padding-bottom: -10px;
+}
+
+h5 {
+  font-size: 28px;
+  font-style: italic;
+  font-weight: ExtraBold;
+  margin: 20px 0px 0px 10px;
+  color: #FFFFFF;
+  padding-bottom: -10px;
+}
+h6 {
+  color: #999999;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+p {
+  color: #000000;
+  margin: 20px 20px 30px 10px;
+}
+.button {
+	width: 300px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: #F10DA3;
+	color: #FFFFFF;
+	border: 1px solid #333333;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FAFAFA;
+	color: #F10DA3;
+	cursor: pointer;
+}
+
+.button2 {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: #FFFFFF;
+	color: #F10DA3;
+	border: 2px solid #333333;
+	transition: all 0.3s linear;
+}
+.button2:hover {
+	background-color: #EEEEEE;
+	color: #000000;
+	cursor: pointer;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.copyright {
+  padding: 20px;
+  text-align: center;
+  color: #000000;
+  background-color: #f5f6f7;
+}
+
+/* Underline */
+hr {
+  margin-left: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 14px;
+  width: 100%;
+  max-width: 180px;
+  background: #F10DA3;
+  border: 0px;
+}
+
+hr2 {
+  margin-left: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  height: 14px;
+  width: 100%;
+  max-width: 180px;
+  background: #FFFFFF;
+  border: 0px;
+}
+
+/* Form Section */
+.container {
+  width: 40%;
+  margin: 0 auto;
+  padding: 80px 100px 100px 100px;
+  min-width: 430px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #FFFFFF;
+  height: 70px;
+  width: 100%;
+  text-align:center;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 35px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Menu Java Section */
+.container2 {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Open Sans", helvetica, sans-serif;
+}
+#dropDown {
+  display: none;
+}
+#toggle {
+  background-color: #F10DA3;
+  padding: 15px;
+  color: white;
+  font-weight: 400;
+  cursor: pointer; 
+}
+
+ul {
+  margin:0;
+  padding: 0;
+  list-style-type:none;
+}
+li {
+  margin:0;
+  padding: 15px;
+  border: 1px solid black;
+}
+img {
+  width: 18px;
+}
