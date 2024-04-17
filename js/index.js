@@ -1,3 +1,3 @@
-$("#toggle").on("click", function(){
-  $("#dropDown").slideToggle();
-});
+function toggleMobileMenu(menu) {
+  menu.classList.toggle('open');
+}
