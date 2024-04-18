@@ -2,14 +2,15 @@
 body {
   margin: 0px;
   background: #FFFFFF;
-  font-family: 'Montserrat Medium', 'Montserrat Light', 'Montserrat Thin ExtraBold', 'Montserrat Thin Bold', 'Montserrat Medium Italic', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat Medium', 'Montserrat Light', 'Montserrat Thin ExtraBold', 'Montserrat Thin Bold', 'Montserrat Medium Italic', 'Montserrat Bold', 'Montserrat ExtraBold', sans-serif;
+  font-weight: 600;
 }
 
 /* Typography CSS */
 
 h1 {
   font-size: 50px;
+  font-weight: ExtraBold;
   margin: 20px 0px 0px 10px;
   color: #F10DA3;
 }
@@ -50,7 +51,7 @@ h5 {
 h6 {
   color: #999999;
   font-family: Thirsty Rough Bold one;
-  font-size: 12px;
+  font: size 28px;
   padding: 0px;
   margin: 0px;
 }
@@ -270,5 +271,5 @@ hr {
   width: 50%;
   background: #F10DA3;
   border: 0px;
-  left: 0px;
+  float: left;
 }
