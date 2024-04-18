@@ -357,13 +357,14 @@ li {
 .footer {
   display: flex;
   flex-direction: row;
-  padding: 0 2%;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .footercontainer {
   display: flex;
   flex-direction: column;
-  align-content: center;
+  text-align: center;
 }
 
 .footersocial {
