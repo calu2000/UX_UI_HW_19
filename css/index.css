@@ -3,6 +3,7 @@ body {
   margin: 0px;
   background: #FFFFFF;
   font-family: 'Montserrat Medium', 'Montserrat Light', 'Montserrat Thin ExtraBold', 'Montserrat Thin Bold', 'Montserrat Medium Italic', sans-serif;
+  font-family: 'Thirsty Rough', 'Thirsty Rough Bold one', sans-serif;
   font-weight: 400;
 }
 
@@ -269,4 +270,5 @@ hr {
   width: 50%;
   background: #F10DA3;
   border: 0px;
+  left: 0px;
 }
