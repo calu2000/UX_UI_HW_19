@@ -163,6 +163,10 @@ textarea {
   align-content: center;
 }
 
+.footer a {
+  color: #F10DA3;
+}
+
 .copyright {
   flex-direction: row;
   text-align: center;
