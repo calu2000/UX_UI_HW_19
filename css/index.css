@@ -58,7 +58,6 @@ h6 {
 }
 p {
   color: #000000;
-  margin: 20px 20px 30px 10px;
 }
 .button {
 	width: 300px;
@@ -355,26 +354,22 @@ li {
 }
 
 .footer {
-  display: flex;
   flex-direction: row;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 .footercontainer {
-  display: flex;
   flex-direction: column;
   text-align: center;
 }
 
 .footersocial {
-  display: flex;
   flex-direction: row;
   align-content: center;
 }
 
 .copyright {
-  display: flex;
   flex-direction: row;
   text-align: center;
   color: #000000;
