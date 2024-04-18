@@ -61,8 +61,6 @@ p {
 }
 .button {
 	width: 300px;
-  margin-top: 8%;
-  margin-bottom: 10%;
 	padding: 20px 10px;
 	text-align: center;
 	vertical-align: middle;
@@ -106,24 +104,10 @@ p {
 
 /* Underline */
 hr {
-  margin-left: 6px;
-  margin-top: 5px;
-  margin-bottom: 10px;
   height: 14px;
   width: 100%;
   max-width: 180px;
   background: #F10DA3;
-  border: 0px;
-}
-
-hr2 {
-  margin-left: 6px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  height: 14px;
-  width: 100%;
-  max-width: 180px;
-  background: #FFFFFF;
   border: 0px;
 }
 
@@ -337,12 +321,20 @@ li {
   padding: 0 10%;  
 }
 
+.casestudy-dark {
+  display: flex;
+  flex-direction: row;
+  padding: 10%; 
+  background-color: #000000;
+}
+
 .contentcontainer {
   display: flex;
   flex-direction: column;
   align-content: center;
-  justify-content: flex-center;
+  justify-content: center;
   padding: 0 3%;
+  gap: 20px;
 }
 
 .imagecontainer {
@@ -352,13 +344,14 @@ li {
   justify-content: center;
 }
 
-.casestudy2 {
-  display: flex;
-  flex-direction: row;
-  background-image: url("../images/cd-mark.png");
-  background-size: 80%;
-  background-repeat: no-repeat;
+.darkTitle {
+  color: white;
 }
+
+.darkText {
+  color: white;
+}
+
 
 .footer {
   flex-direction: row;
