@@ -79,14 +79,6 @@ p {
 	cursor: pointer;
 }
 
-/* Underline */
-hr {
-  height: 12px;
-  width: 50%;
-  background: #F10DA3;
-  border: 0px;
-}
-
 /* Form Section */
 .container {
   width: 40%;
@@ -187,7 +179,7 @@ textarea {
   width: 100%;
   background-color: #FFF;
   position: relative;
-  padding: 1%;
+  padding: 2%;
 }
 
 .nav > .nav-header {
@@ -245,7 +237,7 @@ textarea {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #F10DA3;
+    border-top: 4px solid #F10DA3;
   }
   .nav > .nav-links {
     position: absolute;
@@ -269,4 +261,12 @@ textarea {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+}
+
+/* Underline */
+hr {
+  height: 12px;
+  width: 50%;
+  background: #F10DA3;
+  border: 0px;
 }
