@@ -310,3 +310,32 @@ hr {
 }
 
 
+/* Social Media Share Buttons */
+
+.share-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.share-list a {
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  padding: 7px;
+  margin: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    filter: invert(100%);
+  }
+}
+
+a.fb-h { background: #FFFFFF; }
+a.tw-h { background: #FFFFFF; }
+a.li-h { background: #FFFFFF; }
+a.re-h { background: #FFFFFF; }
+a.pi-h { background: #FFFFFF; }
+
