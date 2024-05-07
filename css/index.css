@@ -75,6 +75,27 @@ p {
 	cursor: pointer;
 }
 
+#myBtn {
+	width: 300px;
+	padding: 20px 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	background-color: #F10DA3;
+	color: #FFFFFF;
+	border: 1px solid #333333;
+	transition: all 0.3s linear;
+}
+
+#myBtn:hover {
+	background-color: #FAFAFA;
+	color: #F10DA3;
+	cursor: pointer;
+}
+
 /* Form Section */
 .container {
   width: 40%;

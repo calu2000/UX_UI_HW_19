@@ -31,3 +31,9 @@ function lbs_click() { window.open(`https://www.linkedin.com/sharing/share-offsi
 function rbs_click() { window.open(`https://www.reddit.com/submit?url=${pageLink}`,'sharer','toolbar=0,status=0,width=626,height=436');return false; }
 
 function pbs_click() { window.open(`https://www.pinterest.com/pin/create/button/?&text=${pageTitle}&url=${pageLink}&description=${pageTitle}`,'sharer','toolbar=0,status=0,width=626,height=436');return false; }
+
+
+
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("Resume coming soon");
+});
